@@ -10,7 +10,6 @@ public class Q7 {
         System.out.print("Enter height in cm: ");
         int height = sc.nextInt();
 
-        //double bmi = weight / (height / 100.0 * 100.0);
         double bmi = weight / Math.pow(height / 100.0, 2);
 
         System.out.println("BMI = " + bmi);
